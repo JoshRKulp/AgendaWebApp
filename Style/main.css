@@ -6,6 +6,9 @@ body {
   background: #ff5847;
   height: 42vw;
   box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.75);
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .title {
@@ -59,5 +62,40 @@ body {
   text-align: center;
   text-transform: uppercase;
   font-size: 20px;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.main {
+  height: 9000px;
+}
+
+.footer-bar {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.item {
+  width: 20vw;
+  height: 16vw;
+  padding-top: 50px;
+}
+
+.item.is-selected {
+  color: white;
+  background: #ff5847;
+}
+
+.icon {
+  text-align: center;
+}
+
+.name {
+  text-align: center;
+  font-size: 50px;
   font-family: 'Open Sans Condensed', sans-serif;
 }
