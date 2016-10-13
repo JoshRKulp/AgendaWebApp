@@ -37,16 +37,11 @@ body
     margin-left: 1%
     margin-right: 1%
     color: white
-
-.date-selected
-    width: 19vw
-    height: 19vw
-    margin-left: 1%
-    margin-right: 1%
-    color: #ff5847
-    background: white
-    border-radius: 50%
-    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.75)
+    &.is-selected
+        color: #ff5847
+        background: white
+        border-radius: 50%
+        box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.75)
 
 .day
     width: 100%
@@ -68,13 +63,58 @@ body
     margin-top: 43vw
     margin-bottom: 22vw
 .section
-    margin-top: 20px
+    margin-top: 80px
     width: 90%
     margin-left: 5%
     background: white
     border-radius: 5px
-    height: 500px
+    min-height: 500px
     box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.75)
+    .time
+        font:
+            size: 50px
+            family: 'Open Sans Condensed', sans-serif
+        letter-spacing: 5px
+        padding: 40px
+        .talks
+            display: flex
+            flex-direction: row 
+            justify-content: center  
+            margin-top: 50px 
+            justify-content: space-between        
+            .profile
+                border-radius: 100px
+                overflow: hidden
+                height: 200px
+                width: 200px
+                img
+                    height: 200px
+                    width: 200px
+            .info
+                padding-left: 30px
+                padding-top: 30px
+                text-align: left
+                width: 600px
+                .title
+                    color: black
+                    padding: 0px
+                    letter-spacing: 2px
+                    text-align: left
+                    font:
+                        size: 45px
+                        family: 'Open Sans Condensed', sans-serif
+                .name
+                    color: #bdadac
+                    font:
+                        size: 30px
+                        family: 'Open Sans Condensed', sans-serif
+                .length
+                    font:
+                        size: 30px
+                        family: 'Open Sans Condensed', sans-serif
+
+
+
 
 .footer-bar
     position: fixed
@@ -92,15 +132,14 @@ body
     &.is-selected
         color: white
         background: #ff5847
+    .name
+        text-align: center
+        font:
+            size: 50px
+            family: 'Open Sans Condensed', sans-serif 
 
 .icon
-    text-align: center
-
-.name
-    text-align: center
-    font:
-        size: 50px
-        family: 'Open Sans Condensed', sans-serif 
+    text-align: center 
 
 
 

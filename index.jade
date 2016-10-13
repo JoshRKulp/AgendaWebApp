@@ -15,7 +15,7 @@ body
             .date
                 .day 2
                 .month Aug
-            .date-selected
+            .date.is-selected
                 .day 3
                 .month Aug
             .date
@@ -27,13 +27,22 @@ body
 
     .main
         .section
-            .time
+            .time 10:00 AM
                 .talks
-                    .profile
+                    .profile 
+                        img(src='/Img/image-1.png', alt='Speaker')
                     .info
-                        .title
-                        .name
-                        .length
+                        .title On the politics of experience
+                        .name Lauren Willams
+                        .length <i class="fa fa-clock-o" aria-hidden="true"></i> 45 min
+                .talks
+                    .profile 
+                        img(src='/Img/image-2.png', alt='Speaker')
+                    .info
+                        .title Design as a Superpower
+                        .name Masami Kamei
+                        .length <i class="fa fa-clock-o" aria-hidden="true"></i> 45 min
+
         .section
             .time
                 .talks
