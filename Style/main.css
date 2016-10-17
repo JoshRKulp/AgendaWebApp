@@ -153,6 +153,7 @@ body {
 .item.is-selected {
   color: white;
   background: #ff5847;
+  transition: all .5s ease-in-out;
 }
 
 .item .name {
