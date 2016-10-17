@@ -5,9 +5,12 @@ body
 // -- Header Section ---------------------------
 // ---------------------------------------------
 
+ 
+
 .header
     background: #ff5847
     height: 42vw
+    max-height: 395px
     box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.75)
     position: fixed
     top:0
@@ -26,14 +29,17 @@ body
 .dates-box
     width: 90%
     margin-left: 5%
-    margin-top: 50px
+    margin-top: 10px
     display: flex
     flex-direction: row 
     justify-content: center
+    align-items: center
 
 .date
     width: 19vw
+    max-width: 200px
     height: 19vw
+    max-height: 200px
     margin-left: 1%
     margin-right: 1%
     color: white
@@ -49,7 +55,7 @@ body
     font:
         size: 60px
         family: 'Open Sans Condensed', sans-serif
-    margin-top: 5vw
+    margin-top: 60px
 
 .month
     width: 100%
@@ -60,8 +66,8 @@ body
         family: 'Open Sans Condensed', sans-serif 
 
 .main
-    margin-top: 43vw
-    margin-bottom: 22vw
+    margin-top: 400px
+    margin-bottom: 200px
 .section
     margin-top: 80px
     width: 90%
@@ -127,6 +133,7 @@ body
 .item
     width: 20vw
     height: 16vw
+    max-height: 125px
     padding-top: 50px
     &.is-selected
         color: white
@@ -139,8 +146,3 @@ body
 
 .icon
     text-align: center 
-
-
-
-
-
